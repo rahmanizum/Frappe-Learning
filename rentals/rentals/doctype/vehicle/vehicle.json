@@ -6,10 +6,11 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "title",
   "make",
   "year",
   "color",
-  "column_break_psbd",
+  "column_break_qncm",
   "model",
   "license_plate"
  ],
@@ -35,10 +36,6 @@
    "label": "Color"
   },
   {
-   "fieldname": "column_break_psbd",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "model",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -51,11 +48,21 @@
    "in_list_view": 1,
    "label": "License Plate",
    "reqd": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qncm",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-01 01:40:33.025635",
+ "modified": "2024-09-03 00:47:37.570747",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Vehicle",
@@ -75,7 +82,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "title"
 }

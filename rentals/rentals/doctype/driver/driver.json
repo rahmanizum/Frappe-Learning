@@ -62,7 +62,7 @@
  "image_field": "profile_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-01 01:46:00.473911",
+ "modified": "2024-09-03 01:31:27.655741",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Driver",
@@ -81,8 +81,10 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "first_name",
  "track_changes": 1
 }

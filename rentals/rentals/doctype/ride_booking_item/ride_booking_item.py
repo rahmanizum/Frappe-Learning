@@ -5,6 +5,5 @@
 from frappe.model.document import Document
 
 
-class Vehicle(Document):
-	def before_save(self):
-		self.title = f"{self.make} {self.model}, {self.year}"
+class RideBookingItem(Document):
+	pass
